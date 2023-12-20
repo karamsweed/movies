@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.indexbtn {
+    background-color: #428bca;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.indexbtn:hover {
+    background-color: #3071a9;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-row {
+    margin-bottom: 15px;
+}
+
+.form-row label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666;
+}
+
+.form-row input[type="text"] {
+    width: calc(100% - 18px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-row input[type="submit"] {
+    background-color: #428bca;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-row input[type="submit"]:hover {
+    background-color: #000;
+}
+
+/* Hovers */
+.form-row input[type="text"]:hover,
+.form-row label:hover {
+    color: #000;
+}
+
+
+
+.indexbtn:hover,
+.form-row input[type="submit"]:hover {
+    background-color: #ff0000; /* Rood */
+}
+
+.form-row input[type="submit"]:hover {
+    background-color: #00cc00; /* Groen */
+}
